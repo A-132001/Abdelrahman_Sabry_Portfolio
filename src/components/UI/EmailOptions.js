@@ -15,7 +15,7 @@ const EmailOptions = props => {
     return (
         <ul class="p-2 shadow dropdown-content bg-base-100 rounded-box ">
             <li>
-                <a class='btn btn-ghost btn-sm text-xs lg:btn-md' href='mailto:abdelrahmansabry53@gmail.com' target='_blank'>Open in email client</a>
+                <a class='btn btn-ghost btn-sm text-xs lg:btn-md' href='mailto:abdelrahmansabry53@gmail.com' target='_blank' rel="noreferrer">Open in email client</a>
             </li>
             <li>
                 <button class='btn btn-ghost btn-sm text-xs lg:btn-md' onClick={clickHandler}>
