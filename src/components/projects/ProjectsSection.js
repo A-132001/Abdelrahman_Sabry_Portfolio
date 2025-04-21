@@ -11,41 +11,45 @@ const ProjectsSection = props => {
             <section id="section-projects">
                 <SectionHeader text={'Projects'} headerGradientStyle={'header-projects'} />
                 <ProjectRight
-                    projectTitle={'COVID-19 Dashboard'}
+                    projectTitle={'Donations Platform'}
                     bgImage={'bg-virus'}
-                    techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma', 'Netlify']}
-                    buttonWatchItLive={'https://colo-codes.github.io/mini-projects/covid-19-dashboard-app/'}
-                    buttonDescription={'https://blog.damiandemasi.com/my-second-vanilla-javascript-project-using-apis-promises-classes-error-handling-and-more'}
-                    buttonGitHub={'https://github.com/Colo-Codes/mini-projects/tree/main/covid-19-dashboard-app'}>
+                    techStack={['Django', 'Tailwind', 'GitHub', 'HTML5', 'CSS3', 'JS']}
+                    buttonWatchItLive={'https://donations-main-production.up.railway.app/'}
+                    buttonDescription={'https://www.linkedin.com/posts/abdelrahman-sabry-saber-4194b21a5_django-webdevelopment-python-activity-7318959577037701120-zqsD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_zCtUBCOmfJE1EIgGWXDOK1OUHGFNGDDMhttps://www.linkedin.com/posts/abdelrahman-sabry-saber-4194b21a5_django-webdevelopment-python-activity-7318959577037701120-zqsD?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC_zCtUBCOmfJE1EIgGWXDOK1OUHGFNGDDM'}
+                    buttonGitHub={'https://github.com/A-132001/Donations_website_iti'}>
                     <ParagraphLight>
-                        <p>This project was one of my favourite tools for breaking my way out of tutorial hell 👹. I also wanted this project to serve me as a display of my JavaScript skills to potential employers or collaborators.</p>
+                        <p>This donation platform is one of the projects I’m most proud of 🤍. It was a great opportunity to apply my backend development skills using Django and to dive deeper into building real-world systems with authentication, APIs, and secure data handling.</p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>By the time I decided to start working on this project I had just finished learning about Promises, async...await, APIs and error handling. I wanted to code a project to implement all of this knowledge.</p>
+                        <p>When I started this project, I had just finished mastering Django’s MVT architecture, JWT authentication, and third-party OAuth integrations. I wanted to bring all this together in one meaningful project that can actually help others.</p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <H4Header>Lessons learned</H4Header>
+                        <H4Header>Lessons Learned</H4Header>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>At the start, this project seemed simple, but it quickly got complicated, especially because I was dealing with three different APIs (and a couple more that didn’t work in the end).</p>
+                        <p>At first, it looked like a straightforward platform, but it quickly turned into a complex system, especially since it involved three tightly connected Django apps: <strong>accounts</strong>, <strong>campaigns</strong>, and <strong>transactions</strong>.</p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>I didn’t spend much time on HTML, but CSS proved to be demanding once more 😅. Thanks to the challenges I faced I gain more CSS skills and learned how to better debug it.</p>
+                        <p>Implementing email verification, Facebook login, and password recovery taught me a lot about authentication systems and user experience. Also, integrating JWT tokens securely pushed me to better understand token-based APIs 🔐.</p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>Regarding JavaScript, I could have implemented MVC from the get-go, so I will do that in my next project. As I previously said, I prefer not to refactor this project and leave it as a witness of my skills at the time.</p>
+                        <p>I also faced several challenges when designing how campaigns and transactions relate to each other. Modeling these relationships with foreign keys and making sure the data flow was smooth really sharpened my understanding of Django’s ORM.</p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>APIs are reliable… most of the time 🤭. I’m sure paid APIs perform better, so if I need to use them in the future for a more serious project, I will research deeply what is the best API to get for the job.</p>
+                        <p>This project still has room for improvement, especially on the front-end side, but I’m proud of how it’s functioning and how much I learned from it. It reflects my progress as a full-stack developer 🛠️.</p>
                     </ParagraphLight>
-                    <ParagraphLight>
-                        <p>This project still has room for improvement, but I had to make the decision to stop working on it at some point. Overall, I think it’s functioning as expected.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
+
+                    {/* <ParagraphLight>
                         <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/61NIjXcV5wg" title="COVID-19 Dashboard App Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/61NIjXcV5wg" title="Donation Platform Demo" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
                         </div>
-                    </ParagraphLight>
+                    </ParagraphLight> */}
                 </ProjectRight>
                 <ProjectLeft
                     projectTitle={'To-Do app'}
