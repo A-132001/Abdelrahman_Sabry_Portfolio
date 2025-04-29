@@ -8,44 +8,61 @@ const BlogSection = props => {
     return (
         <section id="section-blog-posts">
             <SectionHeader text={'Blog Posts'} headerGradientStyle={'header-blog-posts'} class={'mt-24 lg:mt-20'} />
+
             <BlogPostIntro
-                blogTitle={'Mastering Django Models & Relationships 🔗'}
+                blogTitle={'Django Models & Relationships Explained 🔗'}
                 bgImage={'bg-blog-post'}
-                linkHashnode={'https://abdosabry.hashnode.dev/mastering-django-models-and-relationships'}
-                linkDevto={'https://dev.to/abdosabry/mastering-django-models-and-relationships-2aa1'}>
+                linkLinkedin={'https://www.linkedin.com/in/abdelrahman-sabry-saber-4194b21a5/'}>
                 <ParagraphDark>
-                    <p>In this article, I break down how to properly use Django models and define relationships like OneToMany, ManyToMany, and ForeignKey fields — with real-world examples from my Coffee Shop project ☕.</p>
+                    <p>In this blog, I shared how I handled Django relationships like OneToMany, ManyToMany, and ForeignKey in my Coffee Shop project ☕ — with code snippets and real use cases.</p>
                 </ParagraphDark>
                 <ParagraphDark>
-                    <p>We’ll also cover tips for choosing the right relationship type, when to use related_name, and how to make your admin panel much easier to use. If you’re working on any Django app, this will save you hours of trial and error!</p>
+                    <p>I also explained when to use <CodeInline>related_name</CodeInline>, how to keep your models clean, and how to enhance your Django Admin view to be more readable and useful.</p>
                 </ParagraphDark>
             </BlogPostIntro>
+
             <div class="divider w-1/2 mx-auto opacity-20"></div>
+
             <BlogPostIntro
-                blogTitle={'Understanding useReducer in React 💡'}
+                blogTitle={'React useReducer Simplified 💡'}
                 bgImage={'bg-blog-post'}
-                linkHashnode={'https://abdosabry.hashnode.dev/react-usereducer-hook-explained'}
-                linkDevto={'https://dev.to/abdosabry/react-usereducer-explained-4aah'}>
-                <ParagraphDark><CodeInline>useReducer</CodeInline> is one of the most underrated hooks in React. It's a great choice for handling complex state and cleaner logic compared to multiple <CodeInline>useState</CodeInline> hooks.</ParagraphDark>
-                <H4Header>Real example: Task Manager</H4Header>
-                <ParagraphDark>I show how I used <CodeInline>useReducer</CodeInline> in a React Task Manager app to manage add/remove/update logic more efficiently using a reducer function and dispatching actions.</ParagraphDark>
-                <H4Header>Why I prefer it over multiple useState</H4Header>
-                <ParagraphDark>With multiple related states, <CodeInline>useReducer</CodeInline> simplifies the logic and keeps the code clean — especially for forms or nested objects.</ParagraphDark>
+                linkLinkedin={'https://www.linkedin.com/in/abdelrahman-sabry-saber-4194b21a5/'}>
+                <ParagraphDark>
+                    <CodeInline>useReducer</CodeInline> can be a life-saver when you’re managing multiple related states. I used it in my React Task Manager to handle add/remove/update actions in a clean and efficient way.
+                </ParagraphDark>
+                <H4Header>Where it really helped</H4Header>
+                <ParagraphDark>
+                    Instead of cluttering my code with lots of <CodeInline>useState</CodeInline> hooks, I grouped logic inside a reducer function and dispatched actions. Much more scalable!
+                </ParagraphDark>
+                <H4Header>When to use useReducer</H4Header>
+                <ParagraphDark>
+                    If you're working with forms, nested states, or complex logic — useReducer is the way to go.
+                </ParagraphDark>
             </BlogPostIntro>
+
             <div class="divider w-1/2 mx-auto opacity-20"></div>
+
             <BlogPostIntro
-                blogTitle={'API Development with Django REST Framework 🔥'}
+                blogTitle={'Build APIs with Django REST Framework 🔥'}
                 bgImage={'bg-blog-post'}
-                linkHashnode={'https://abdosabry.hashnode.dev/api-development-with-drf'}
-                linkDevto={'https://dev.to/abdosabry/api-development-with-drf-2025'}>
-                <ParagraphDark><CodeInline>DRF</CodeInline> makes API development smooth and flexible. In this blog, I explain how to build a basic API with authentication, permissions, pagination, and filtering.</ParagraphDark>
-                <H4Header>Authentication & JWT</H4Header>
-                <ParagraphDark>I demonstrate how I integrated JWT authentication in one of my projects using <CodeInline>SimpleJWT</CodeInline> to secure endpoints.</ParagraphDark>
-                <H4Header>Serializers & Custom Fields</H4Header>
-                <ParagraphDark>I also cover tips on customizing serializers and handling nested fields or model relations efficiently. Perfect if you’re building a real-world back-end.</ParagraphDark>
+                linkLinkedin={'https://www.linkedin.com/in/abdelrahman-sabry-saber-4194b21a5/'}>
+                <ParagraphDark>
+                    DRF makes back-end API development much smoother. In this blog, I explain how I built APIs with JWT authentication, filtering, pagination, and permission control.
+                </ParagraphDark>
+                <H4Header>Secure APIs with JWT</H4Header>
+                <ParagraphDark>
+                    I show how I added authentication using <CodeInline>SimpleJWT</CodeInline> and made my endpoints secure.
+                </ParagraphDark>
+                <H4Header>Clean Serializers</H4Header>
+                <ParagraphDark>
+                    I shared some tips for working with nested serializers and custom fields to keep your API flexible and scalable.
+                </ParagraphDark>
             </BlogPostIntro>
+
             <div class='block mx-auto mt-20 text-center'>
-                <a href='https://abdosabry.hashnode.dev' target='_blank' rel='noreferrer' class='btn'>Read more articles</a>
+                <a href='https://www.linkedin.com/in/abdelrahman-sabry-saber-4194b21a5/' target='_blank' rel='noreferrer' class='btn'>
+                    Visit my LinkedIn for more articles
+                </a>
             </div>
         </section>
     );

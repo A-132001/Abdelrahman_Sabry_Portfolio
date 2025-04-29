@@ -7,7 +7,7 @@ const AboutSection = props => {
         <div class='bg-black pb-32'>
             <section id='section-about'>
                 <SectionHeader text={'About Me'} headerGradientStyle={'header-about-me'} />
-                <AboutMe projectTitle={`Hi! 👋 I'm Abdelrahman`} bgImage={'bg-virus'} techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'React', 'Figma', 'Netlify', 'Linux']}>
+                <AboutMe projectTitle={`Hi! 👋 I'm Abdelrahman`} bgImage={'bg-virus'} techStack={['Django', 'Tailwind', 'HTML5', 'CSS3', 'GitHub', 'JS', 'React', 'Figma', 'Netlify', 'Linux']}>
                     <ParagraphLight>
                         My journey into tech began during my high school years, where my passion for problem-solving and curiosity about how things work naturally drew me into programming and web development.
                     </ParagraphLight>
