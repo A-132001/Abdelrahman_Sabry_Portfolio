@@ -15,7 +15,7 @@ const Footer = props => {
             <NavbarFooter />
             <div class='text-left hero-content items-start'>
                 <div class='max-w-2xl'>
-                    <p class='mb-5'><span><img src={locationPin} class='h-4 inline mb-1 mr-1' alt='Location pin icon' /></span>Adelaide, Australia</p>
+                    <p class='mb-5'><span><img src={locationPin} class='h-4 inline mb-1 mr-1' alt='Location pin icon' /></span>Cairo, Egypt</p>
                     <h1 class='mb-5  font-bold font-poppins'>
                         <span class='block text-md lg:text-xl'>Abdelrahman Sabry,</span><span class='text-3xl lg:text-5xl subpixel-antialiased'>web<br />developer</span>
                     </h1>
