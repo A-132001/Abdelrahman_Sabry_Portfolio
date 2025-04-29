@@ -52,39 +52,53 @@ const ProjectsSection = props => {
                     </ParagraphLight> */}
                 </ProjectRight>
                 <ProjectLeft
-                    projectTitle={'To-Do app'}
+                    projectTitle={'Coffee Shop Website'}
                     bgImage={'bg-to-do'}
-                    techStack={['HTML5', 'CSS3', 'GitHub', 'JS', 'Figma', 'Netlify']}
-                    buttonWatchItLive={'https://colo-codes.github.io/mini-projects/todo-app/'}
-                    buttonDescription={'https://blog.damiandemasi.com/my-first-vanilla-javascript-project-making-a-simple-to-do-app'}
-                    buttonGitHub={'https://github.com/Colo-Codes/mini-projects/tree/main/todo-app'}>
+                    techStack={['Django', 'Tailwind', 'GitHub', 'HTML5', 'CSS3', 'JS']}
+                    buttonWatchItLive={'https://coffeeshopproject-production.up.railway.app/'}
+                    buttonDescription={'https://www.linkedin.com/in/abdelrahman-sabry-saber-4194b21a5/'}
+                    buttonGitHub={'https://github.com/A-132001/CoffeeShopProject'}>
                     <ParagraphLight>
-                        <p>Doing courses and tutorials is great, but sometimes is difficult to evaluate how much are we actually learning. Watching video after video and coding along with the instructor gives us very good guidance, but it is not a realistic scenario. In a real-world job, we will have to solve problems and start figuring things out by ourselves (with the help of Google, of course 😉). So, to test how much I was actually learning during the JavaScript course I was doing I decided to make a simple To-Do app in HTML, CSS and vanilla JavaScript.</p>
+                        <p>
+                            Building this Coffee Shop website was an important milestone in my full-stack journey. Instead of just following tutorials, I decided to put my Django skills to the test and create a full-featured e-commerce-style project using Django, PostgreSQL, and HTML/CSS templates. It’s a realistic, practical application that showcases authentication, search, product listing, and checkout systems — everything a real user would expect. ☕
+                        </p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <H4Header>Lessons learned</H4Header>
+                        <H4Header>Lessons learned 📘</H4Header>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>Thanks to this project I could have a taste of how much work an application like this one takes.</p>
+                        <p>
+                            This project gave me hands-on experience with how real-world applications are structured. I learned how to connect Django with PostgreSQL and how to manage user authentication, product models, and order logic cleanly and securely.
+                        </p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>I learned about the importance of structuring HTML in a meaningful semantic way, and how a good HTML structure can make our lives easy when we start working on CSS and JavaScript in later stages of the project.</p>
+                        <p>
+                            I also understood how important good HTML structure is when using Django templates. It helped me style the pages efficiently and add dynamic content without breaking the design.
+                        </p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>I underestimated CSS 😅. The classes names are a bit funny and messy, so in the future, I'll try to implement BEM notation and maybe SASS. I discovered that some behaviour that initially thought of was in the realm of JavaScript can easily be achieved with CSS, such as animations on elements.</p>
+                        <p>
+                            Styling the pages using CSS3 and Tailwind taught me a lot about responsive design and layout best practices. I’m now more confident in keeping designs consistent and clean. 🎨
+                        </p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>Regarding JavaScript, this was the first time I coded following the OOP paradigm and, despite feeling a bit out of my element, I now can see the potential that following this paradigm has.</p>
+                        <p>
+                            This was also my first time implementing a full checkout system and paginated product views. I gained a clearer picture of how back-end logic works together with front-end presentation to deliver a seamless user experience. 🛒
+                        </p>
                     </ParagraphLight>
+
                     <ParagraphLight>
-                        <p>The project has a lot of room for improvement, but I wanted to live it like that to have a "snapshot" of my knowledge and skills up to the point in time where I was working on it.</p>
-                    </ParagraphLight>
-                    <ParagraphLight>
-                        <div style={{ padding: '56.25% 0 0 0', position: 'relative' }}>
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vAL7ocx5oZI" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen style={{ position: 'absolute', top: '0', left: '0', width: '100%', height: '100%' }}></iframe>
-                        </div>
+                        <p>
+                            There’s always room to improve, but I’m proud of this project as a snapshot of my current full-stack skills and how far I’ve come in Django development. 🚀
+                        </p>
                     </ParagraphLight>
                 </ProjectLeft>
+
             </section>
         </div>
     );

@@ -1,7 +1,7 @@
 import ButtonLight from '../UI/ButtonLight';
 import H3Header from '../UI/H3Header';
 import H4Header from '../UI/H4Header';
-
+import TechStack from '../UI/TechStack';
 const ProjectLeft = props => {
     return (
         <div class="mt-32 flex flex-wrap gap-6 max-w-5xl mx-auto px-2 text-white">
@@ -16,6 +16,9 @@ const ProjectLeft = props => {
                 <p data-theme="mytheme" class="text-secondary mb-5">
                     This project was built using the following tools and technologies:
                 </p>
+                <div class="grid grid-cols-5 gap-4">
+                    <TechStack usedTech={props.techStack} />
+                </div>
             </div>
             <div data-theme="mytheme" class="max-w-sm justify-self-end mx-auto">
                 <div class="w-6/12 mx-auto lg:mx-0 lg:mr-auto lg:w-8/12 pt-14">
